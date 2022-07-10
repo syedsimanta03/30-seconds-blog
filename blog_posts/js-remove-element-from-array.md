@@ -33,7 +33,7 @@ Another option for removing elements from an array is `Array.prototype.filter()`
 const arr = ['a', 'b', 'c'];
 const filtered = arr.filter(el => el !== 'b'); // ['a', 'c']
 
-console.log(arr); // ['a', 'b', 'c']
+console.log(arr); // ['a','c']
 ```
 
 Most of the time, `Array.prototype.filter()` is the best option for removing elements from an array.
